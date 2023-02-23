@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pedro.lhjunior\\source\\repos\\T13\\UC12\\_MiniProjeto\\T13_MiniProjeto\\T13_MiniProjeto\\T13_MiniProjeto.csproj": {}
+    "C:\\Users\\pedro.lhjunior\\source\\repos\\T13\\T13\\UC12\\_MiniProjeto\\T13_MiniProjeto\\T13_MiniProjeto\\T13_MiniProjeto.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pedro.lhjunior\\source\\repos\\T13\\UC12\\_MiniProjeto\\T13_MiniProjeto\\T13_MiniProjeto\\T13_MiniProjeto.csproj": {
+    "C:\\Users\\pedro.lhjunior\\source\\repos\\T13\\T13\\UC12\\_MiniProjeto\\T13_MiniProjeto\\T13_MiniProjeto\\T13_MiniProjeto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pedro.lhjunior\\source\\repos\\T13\\UC12\\_MiniProjeto\\T13_MiniProjeto\\T13_MiniProjeto\\T13_MiniProjeto.csproj",
+        "projectUniqueName": "C:\\Users\\pedro.lhjunior\\source\\repos\\T13\\T13\\UC12\\_MiniProjeto\\T13_MiniProjeto\\T13_MiniProjeto\\T13_MiniProjeto.csproj",
         "projectName": "T13_MiniProjeto",
-        "projectPath": "C:\\Users\\pedro.lhjunior\\source\\repos\\T13\\UC12\\_MiniProjeto\\T13_MiniProjeto\\T13_MiniProjeto\\T13_MiniProjeto.csproj",
+        "projectPath": "C:\\Users\\pedro.lhjunior\\source\\repos\\T13\\T13\\UC12\\_MiniProjeto\\T13_MiniProjeto\\T13_MiniProjeto\\T13_MiniProjeto.csproj",
         "packagesPath": "C:\\Users\\pedro.lhjunior\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pedro.lhjunior\\source\\repos\\T13\\UC12\\_MiniProjeto\\T13_MiniProjeto\\T13_MiniProjeto\\obj\\",
+        "outputPath": "C:\\Users\\pedro.lhjunior\\source\\repos\\T13\\T13\\UC12\\_MiniProjeto\\T13_MiniProjeto\\T13_MiniProjeto\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
