@@ -32,6 +32,16 @@ create table categoria
 	obs_Categoria	varchar(255)	null		,
 	status_Categoria	varchar(30)	not null	
 )
+insert into categoria values ('Ouro','','','Ativo')
+insert into categoria values ('Premium','','','Ativo'),
+	 ('Prata','','','Ativo'),
+	 ('Bronze','','','Ativo'),
+	 ('Madeira','','','Ativo'),
+	 ('Materia Prima','','','Ativo'),
+	 ('Vidro','','','Ativo'),
+	 ('Venda','','','Ativo')
+
+select * from categoria
 
 create table produto
 (
