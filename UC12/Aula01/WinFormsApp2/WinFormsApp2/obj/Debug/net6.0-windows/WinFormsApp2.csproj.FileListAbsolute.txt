@@ -1,0 +1,17 @@
+C:\Users\pedro.lhjunior\Desktop\T13\UC12\Aula01\WinFormsApp2\WinFormsApp2\bin\Debug\net6.0-windows\WinFormsApp2.exe
+C:\Users\pedro.lhjunior\Desktop\T13\UC12\Aula01\WinFormsApp2\WinFormsApp2\bin\Debug\net6.0-windows\WinFormsApp2.deps.json
+C:\Users\pedro.lhjunior\Desktop\T13\UC12\Aula01\WinFormsApp2\WinFormsApp2\bin\Debug\net6.0-windows\WinFormsApp2.runtimeconfig.json
+C:\Users\pedro.lhjunior\Desktop\T13\UC12\Aula01\WinFormsApp2\WinFormsApp2\bin\Debug\net6.0-windows\WinFormsApp2.dll
+C:\Users\pedro.lhjunior\Desktop\T13\UC12\Aula01\WinFormsApp2\WinFormsApp2\bin\Debug\net6.0-windows\WinFormsApp2.pdb
+C:\Users\pedro.lhjunior\Desktop\T13\UC12\Aula01\WinFormsApp2\WinFormsApp2\obj\Debug\net6.0-windows\WinFormsApp2.csproj.AssemblyReference.cache
+C:\Users\pedro.lhjunior\Desktop\T13\UC12\Aula01\WinFormsApp2\WinFormsApp2\obj\Debug\net6.0-windows\WinFormsApp2.frmAtividade01.resources
+C:\Users\pedro.lhjunior\Desktop\T13\UC12\Aula01\WinFormsApp2\WinFormsApp2\obj\Debug\net6.0-windows\WinFormsApp2.csproj.GenerateResource.cache
+C:\Users\pedro.lhjunior\Desktop\T13\UC12\Aula01\WinFormsApp2\WinFormsApp2\obj\Debug\net6.0-windows\WinFormsApp2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pedro.lhjunior\Desktop\T13\UC12\Aula01\WinFormsApp2\WinFormsApp2\obj\Debug\net6.0-windows\WinFormsApp2.AssemblyInfoInputs.cache
+C:\Users\pedro.lhjunior\Desktop\T13\UC12\Aula01\WinFormsApp2\WinFormsApp2\obj\Debug\net6.0-windows\WinFormsApp2.AssemblyInfo.cs
+C:\Users\pedro.lhjunior\Desktop\T13\UC12\Aula01\WinFormsApp2\WinFormsApp2\obj\Debug\net6.0-windows\WinFormsApp2.csproj.CoreCompileInputs.cache
+C:\Users\pedro.lhjunior\Desktop\T13\UC12\Aula01\WinFormsApp2\WinFormsApp2\obj\Debug\net6.0-windows\WinFormsApp2.dll
+C:\Users\pedro.lhjunior\Desktop\T13\UC12\Aula01\WinFormsApp2\WinFormsApp2\obj\Debug\net6.0-windows\refint\WinFormsApp2.dll
+C:\Users\pedro.lhjunior\Desktop\T13\UC12\Aula01\WinFormsApp2\WinFormsApp2\obj\Debug\net6.0-windows\WinFormsApp2.pdb
+C:\Users\pedro.lhjunior\Desktop\T13\UC12\Aula01\WinFormsApp2\WinFormsApp2\obj\Debug\net6.0-windows\WinFormsApp2.genruntimeconfig.cache
+C:\Users\pedro.lhjunior\Desktop\T13\UC12\Aula01\WinFormsApp2\WinFormsApp2\obj\Debug\net6.0-windows\ref\WinFormsApp2.dll
