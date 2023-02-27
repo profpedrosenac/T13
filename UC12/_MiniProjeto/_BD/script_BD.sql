@@ -18,6 +18,9 @@ values
 
 select * from usuario
 
+-- select para o login
+select * from usuario where login_Usuario = 'admin' and senha_Usuario = '1235'
+
 insert into usuario 
 	(nome_Usuario,login_Usuario,senha_Usuario,obs_Usuario,status_Usuario)
 values

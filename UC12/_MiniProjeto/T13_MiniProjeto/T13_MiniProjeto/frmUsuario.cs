@@ -6,7 +6,7 @@ namespace T13_MiniProjeto
     public partial class frmUsuario : Form
     {
 
-        string stringConexao = "Data Source=localhost;Initial Catalog=t13_miniprojeto;User ID=sa;Password=123456";
+        string stringConexao = frmLogin.stringConexao;
 
         private void TesteConexao()
         {

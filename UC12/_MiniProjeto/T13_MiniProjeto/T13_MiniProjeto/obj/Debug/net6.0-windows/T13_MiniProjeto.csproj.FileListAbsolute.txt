@@ -47,3 +47,5 @@ C:\Users\pedro.lhjunior\source\repos\T13\T13\UC12\_MiniProjeto\T13_MiniProjeto\T
 C:\Users\pedro.lhjunior\source\repos\T13\T13\UC12\_MiniProjeto\T13_MiniProjeto\T13_MiniProjeto\obj\Debug\net6.0-windows\T13_MiniProjeto.pdb
 C:\Users\pedro.lhjunior\source\repos\T13\T13\UC12\_MiniProjeto\T13_MiniProjeto\T13_MiniProjeto\obj\Debug\net6.0-windows\T13_MiniProjeto.genruntimeconfig.cache
 C:\Users\pedro.lhjunior\source\repos\T13\T13\UC12\_MiniProjeto\T13_MiniProjeto\T13_MiniProjeto\obj\Debug\net6.0-windows\ref\T13_MiniProjeto.dll
+C:\Users\pedro.lhjunior\source\repos\T13\T13\UC12\_MiniProjeto\T13_MiniProjeto\T13_MiniProjeto\obj\Debug\net6.0-windows\T13_MiniProjeto.MDI_Principal.resources
+C:\Users\pedro.lhjunior\source\repos\T13\T13\UC12\_MiniProjeto\T13_MiniProjeto\T13_MiniProjeto\obj\Debug\net6.0-windows\T13_MiniProjeto.frmLogin.resources
