@@ -51,6 +51,7 @@
             this.txtLogin.Name = "txtLogin";
             this.txtLogin.Size = new System.Drawing.Size(343, 32);
             this.txtLogin.TabIndex = 0;
+            this.txtLogin.Text = "admin";
             // 
             // label2
             // 
@@ -67,6 +68,7 @@
             this.txtSenha.Name = "txtSenha";
             this.txtSenha.Size = new System.Drawing.Size(343, 32);
             this.txtSenha.TabIndex = 1;
+            this.txtSenha.Text = "123";
             // 
             // btoSair
             // 

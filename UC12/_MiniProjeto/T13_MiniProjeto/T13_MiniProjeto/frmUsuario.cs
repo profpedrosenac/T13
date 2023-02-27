@@ -44,9 +44,41 @@ namespace T13_MiniProjeto
             txtObs.Text = "";
         }
 
+        private void CarregarGridUsuario()
+        {
+            string sql = "select " +
+                    "id_usuario as 'ID'," +
+                    "nome_Usuario as 'Nome'," +
+                    "login_Usuario as 'Usuario'," +
+                    "status_Usuario as 'status' " +
+                "from usuario where nome_Usuario like '%" + txtNomePesquisa.Text + "%'";
+
+            SqlConnection conn = new SqlConnection(stringConexao);
+            SqlDataAdapter adapter = new SqlDataAdapter(sql, conn);
+            DataSet ds = new DataSet();
+            conn.Open();
+
+            try
+            {
+                adapter.Fill(ds);
+                gridUsuario.DataSource = ds.Tables[0];
+                gridUsuario.AutoResizeColumns(DataGridViewAutoSizeColumnsMode.AllCells);
+                gridUsuario.AutoResizeRow(0, DataGridViewAutoSizeRowMode.AllCellsExceptHeader);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                conn.Close();
+            }
+        }
+
         private void frmUsuario_Load(object sender, EventArgs e)
         {
             TesteConexao();
+            CarregarGridUsuario();
         }
 
         private void btoCadastrar_Click(object sender, EventArgs e)
@@ -77,6 +109,7 @@ namespace T13_MiniProjeto
             {
                 conn.Close();
             }
+            CarregarGridUsuario();
         }
 
         private void btoAdd2_Click(object sender, EventArgs e)
@@ -114,6 +147,7 @@ namespace T13_MiniProjeto
             {
                 conn.Close();
             }
+            CarregarGridUsuario();
         }
 
         private void btoPesquisar_Click(object sender, EventArgs e)
@@ -185,6 +219,7 @@ namespace T13_MiniProjeto
             {
                 conn.Close();
             }
+            CarregarGridUsuario();
         }
 
         private void btoExcluir_Click(object sender, EventArgs e)
@@ -212,6 +247,18 @@ namespace T13_MiniProjeto
             {
                 conn.Close();
             }
+            CarregarGridUsuario();
+        }
+
+        private void gridUsuario_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            txtCodigo.Text = gridUsuario.CurrentRow.Cells["ID"].Value.ToString();
+            btoPesquisar.PerformClick();
+        }
+
+        private void txtNomePesquisa_TextChanged(object sender, EventArgs e)
+        {
+            CarregarGridUsuario();
         }
     }
 }

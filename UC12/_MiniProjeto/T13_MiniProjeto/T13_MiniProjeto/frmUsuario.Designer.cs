@@ -52,9 +52,12 @@
             this.btoAlterar = new System.Windows.Forms.Button();
             this.btoExcluir = new System.Windows.Forms.Button();
             this.btoSair = new System.Windows.Forms.Button();
+            this.gridUsuario = new System.Windows.Forms.DataGridView();
+            this.txtNomePesquisa = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.gridUsuario)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -62,17 +65,17 @@
             this.groupBox1.Controls.Add(this.btoPesquisar);
             this.groupBox1.Controls.Add(this.txtCodigo);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Location = new System.Drawing.Point(12, 12);
+            this.groupBox1.Location = new System.Drawing.Point(10, 10);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(730, 107);
+            this.groupBox1.Size = new System.Drawing.Size(598, 90);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             // 
             // btoPesquisar
             // 
-            this.btoPesquisar.Location = new System.Drawing.Point(242, 55);
+            this.btoPesquisar.Location = new System.Drawing.Point(198, 46);
             this.btoPesquisar.Name = "btoPesquisar";
-            this.btoPesquisar.Size = new System.Drawing.Size(49, 33);
+            this.btoPesquisar.Size = new System.Drawing.Size(40, 28);
             this.btoPesquisar.TabIndex = 1;
             this.btoPesquisar.Text = "...";
             this.btoPesquisar.UseVisualStyleBackColor = true;
@@ -80,17 +83,17 @@
             // 
             // txtCodigo
             // 
-            this.txtCodigo.Location = new System.Drawing.Point(6, 56);
+            this.txtCodigo.Location = new System.Drawing.Point(5, 48);
             this.txtCodigo.Name = "txtCodigo";
-            this.txtCodigo.Size = new System.Drawing.Size(230, 32);
+            this.txtCodigo.Size = new System.Drawing.Size(189, 29);
             this.txtCodigo.TabIndex = 0;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(6, 28);
+            this.label1.Location = new System.Drawing.Point(5, 24);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(73, 25);
+            this.label1.Size = new System.Drawing.Size(60, 21);
             this.label1.TabIndex = 0;
             this.label1.Text = "Código";
             // 
@@ -108,9 +111,9 @@
             this.groupBox2.Controls.Add(this.txtLogin);
             this.groupBox2.Controls.Add(this.txtObs);
             this.groupBox2.Controls.Add(this.txtNome);
-            this.groupBox2.Location = new System.Drawing.Point(12, 125);
+            this.groupBox2.Location = new System.Drawing.Point(10, 105);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(730, 288);
+            this.groupBox2.Size = new System.Drawing.Size(598, 219);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             // 
@@ -121,99 +124,99 @@
             this.cboStatus.Items.AddRange(new object[] {
             "Ativo",
             "Inativo"});
-            this.cboStatus.Location = new System.Drawing.Point(586, 118);
+            this.cboStatus.Location = new System.Drawing.Point(480, 99);
             this.cboStatus.Name = "cboStatus";
-            this.cboStatus.Size = new System.Drawing.Size(138, 33);
+            this.cboStatus.Size = new System.Drawing.Size(113, 29);
             this.cboStatus.TabIndex = 4;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(586, 91);
+            this.label5.Location = new System.Drawing.Point(480, 77);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(62, 25);
+            this.label5.Size = new System.Drawing.Size(52, 21);
             this.label5.TabIndex = 0;
             this.label5.Text = "Status";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(416, 92);
+            this.label7.Location = new System.Drawing.Point(341, 77);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(154, 25);
+            this.label7.Size = new System.Drawing.Size(128, 21);
             this.label7.TabIndex = 0;
             this.label7.Text = "Confirmar Senha";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(242, 91);
+            this.label4.Location = new System.Drawing.Point(198, 77);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(64, 25);
+            this.label4.Size = new System.Drawing.Size(53, 21);
             this.label4.TabIndex = 0;
             this.label4.Text = "Senha";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(6, 91);
+            this.label3.Location = new System.Drawing.Point(5, 77);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(59, 25);
+            this.label3.Size = new System.Drawing.Size(49, 21);
             this.label3.TabIndex = 0;
             this.label3.Text = "Login";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(6, 154);
+            this.label6.Location = new System.Drawing.Point(5, 129);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(111, 25);
+            this.label6.Size = new System.Drawing.Size(92, 21);
             this.label6.TabIndex = 0;
             this.label6.Text = "Observação";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(6, 28);
+            this.label2.Location = new System.Drawing.Point(5, 24);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(63, 25);
+            this.label2.Size = new System.Drawing.Size(53, 21);
             this.label2.TabIndex = 0;
             this.label2.Text = "Nome";
             // 
             // txtConfirmarSenha
             // 
-            this.txtConfirmarSenha.Location = new System.Drawing.Point(414, 119);
+            this.txtConfirmarSenha.Location = new System.Drawing.Point(338, 99);
             this.txtConfirmarSenha.Name = "txtConfirmarSenha";
-            this.txtConfirmarSenha.Size = new System.Drawing.Size(166, 32);
+            this.txtConfirmarSenha.Size = new System.Drawing.Size(136, 29);
             this.txtConfirmarSenha.TabIndex = 3;
             // 
             // txtSenha
             // 
-            this.txtSenha.Location = new System.Drawing.Point(242, 119);
+            this.txtSenha.Location = new System.Drawing.Point(198, 99);
             this.txtSenha.Name = "txtSenha";
-            this.txtSenha.Size = new System.Drawing.Size(166, 32);
+            this.txtSenha.Size = new System.Drawing.Size(136, 29);
             this.txtSenha.TabIndex = 2;
             // 
             // txtLogin
             // 
-            this.txtLogin.Location = new System.Drawing.Point(6, 119);
+            this.txtLogin.Location = new System.Drawing.Point(5, 99);
             this.txtLogin.Name = "txtLogin";
-            this.txtLogin.Size = new System.Drawing.Size(230, 32);
+            this.txtLogin.Size = new System.Drawing.Size(189, 29);
             this.txtLogin.TabIndex = 1;
             // 
             // txtObs
             // 
-            this.txtObs.Location = new System.Drawing.Point(6, 182);
+            this.txtObs.Location = new System.Drawing.Point(5, 153);
             this.txtObs.Multiline = true;
             this.txtObs.Name = "txtObs";
-            this.txtObs.Size = new System.Drawing.Size(718, 100);
+            this.txtObs.Size = new System.Drawing.Size(588, 57);
             this.txtObs.TabIndex = 5;
             // 
             // txtNome
             // 
-            this.txtNome.Location = new System.Drawing.Point(6, 56);
+            this.txtNome.Location = new System.Drawing.Point(5, 48);
             this.txtNome.Name = "txtNome";
-            this.txtNome.Size = new System.Drawing.Size(718, 32);
+            this.txtNome.Size = new System.Drawing.Size(588, 29);
             this.txtNome.TabIndex = 0;
             // 
             // groupBox3
@@ -224,18 +227,18 @@
             this.groupBox3.Controls.Add(this.btoAlterar);
             this.groupBox3.Controls.Add(this.btoExcluir);
             this.groupBox3.Controls.Add(this.btoSair);
-            this.groupBox3.Location = new System.Drawing.Point(12, 419);
+            this.groupBox3.Location = new System.Drawing.Point(10, 330);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(730, 84);
+            this.groupBox3.Size = new System.Drawing.Size(598, 70);
             this.groupBox3.TabIndex = 2;
             this.groupBox3.TabStop = false;
             // 
             // btoAdd2
             // 
             this.btoAdd2.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btoAdd2.Location = new System.Drawing.Point(6, 31);
+            this.btoAdd2.Location = new System.Drawing.Point(5, 27);
             this.btoAdd2.Name = "btoAdd2";
-            this.btoAdd2.Size = new System.Drawing.Size(99, 33);
+            this.btoAdd2.Size = new System.Drawing.Size(81, 28);
             this.btoAdd2.TabIndex = 2;
             this.btoAdd2.Text = "Add2";
             this.btoAdd2.UseVisualStyleBackColor = false;
@@ -243,9 +246,9 @@
             // 
             // btoLimpar
             // 
-            this.btoLimpar.Location = new System.Drawing.Point(474, 31);
+            this.btoLimpar.Location = new System.Drawing.Point(388, 27);
             this.btoLimpar.Name = "btoLimpar";
-            this.btoLimpar.Size = new System.Drawing.Size(122, 33);
+            this.btoLimpar.Size = new System.Drawing.Size(100, 28);
             this.btoLimpar.TabIndex = 3;
             this.btoLimpar.Text = "&Limpar";
             this.btoLimpar.UseVisualStyleBackColor = true;
@@ -253,9 +256,9 @@
             // 
             // btoCadastrar
             // 
-            this.btoCadastrar.Location = new System.Drawing.Point(111, 31);
+            this.btoCadastrar.Location = new System.Drawing.Point(91, 27);
             this.btoCadastrar.Name = "btoCadastrar";
-            this.btoCadastrar.Size = new System.Drawing.Size(101, 33);
+            this.btoCadastrar.Size = new System.Drawing.Size(82, 28);
             this.btoCadastrar.TabIndex = 0;
             this.btoCadastrar.Text = "&Add1";
             this.btoCadastrar.UseVisualStyleBackColor = true;
@@ -263,9 +266,9 @@
             // 
             // btoAlterar
             // 
-            this.btoAlterar.Location = new System.Drawing.Point(218, 31);
+            this.btoAlterar.Location = new System.Drawing.Point(179, 27);
             this.btoAlterar.Name = "btoAlterar";
-            this.btoAlterar.Size = new System.Drawing.Size(122, 33);
+            this.btoAlterar.Size = new System.Drawing.Size(100, 28);
             this.btoAlterar.TabIndex = 1;
             this.btoAlterar.Text = "&Alterar";
             this.btoAlterar.UseVisualStyleBackColor = true;
@@ -273,9 +276,9 @@
             // 
             // btoExcluir
             // 
-            this.btoExcluir.Location = new System.Drawing.Point(346, 31);
+            this.btoExcluir.Location = new System.Drawing.Point(283, 27);
             this.btoExcluir.Name = "btoExcluir";
-            this.btoExcluir.Size = new System.Drawing.Size(122, 33);
+            this.btoExcluir.Size = new System.Drawing.Size(100, 28);
             this.btoExcluir.TabIndex = 2;
             this.btoExcluir.Text = "&Excluir";
             this.btoExcluir.UseVisualStyleBackColor = true;
@@ -283,25 +286,47 @@
             // 
             // btoSair
             // 
-            this.btoSair.Location = new System.Drawing.Point(602, 31);
+            this.btoSair.Location = new System.Drawing.Point(492, 27);
             this.btoSair.Name = "btoSair";
-            this.btoSair.Size = new System.Drawing.Size(122, 33);
+            this.btoSair.Size = new System.Drawing.Size(100, 28);
             this.btoSair.TabIndex = 4;
             this.btoSair.Text = "&Sair";
             this.btoSair.UseVisualStyleBackColor = true;
             this.btoSair.Click += new System.EventHandler(this.btoSair_Click);
             // 
+            // gridUsuario
+            // 
+            this.gridUsuario.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.gridUsuario.Location = new System.Drawing.Point(10, 441);
+            this.gridUsuario.Name = "gridUsuario";
+            this.gridUsuario.ReadOnly = true;
+            this.gridUsuario.RowTemplate.Height = 25;
+            this.gridUsuario.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.gridUsuario.Size = new System.Drawing.Size(598, 145);
+            this.gridUsuario.TabIndex = 3;
+            this.gridUsuario.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gridUsuario_CellClick);
+            // 
+            // txtNomePesquisa
+            // 
+            this.txtNomePesquisa.Location = new System.Drawing.Point(10, 406);
+            this.txtNomePesquisa.Name = "txtNomePesquisa";
+            this.txtNomePesquisa.Size = new System.Drawing.Size(598, 29);
+            this.txtNomePesquisa.TabIndex = 4;
+            this.txtNomePesquisa.TextChanged += new System.EventHandler(this.txtNomePesquisa_TextChanged);
+            // 
             // frmUsuario
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.ClientSize = new System.Drawing.Size(754, 513);
+            this.ClientSize = new System.Drawing.Size(617, 598);
+            this.Controls.Add(this.txtNomePesquisa);
+            this.Controls.Add(this.gridUsuario);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
-            this.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Margin = new System.Windows.Forms.Padding(5);
+            this.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmUsuario";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Formulário de Cadastro de Usuário";
@@ -311,7 +336,9 @@
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.groupBox3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.gridUsuario)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -341,5 +368,7 @@
         private TextBox txtConfirmarSenha;
         private Button btoLimpar;
         private Button btoAdd2;
+        private DataGridView gridUsuario;
+        private TextBox txtNomePesquisa;
     }
 }

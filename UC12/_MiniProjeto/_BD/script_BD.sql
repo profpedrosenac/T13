@@ -18,6 +18,9 @@ values
 
 select * from usuario
 
+-- Selecionar o nome informado
+select * from usuario where nome_Usuario like '%a%'
+
 -- select para o login
 select * from usuario where login_Usuario = 'admin' and senha_Usuario = '1235'
 
