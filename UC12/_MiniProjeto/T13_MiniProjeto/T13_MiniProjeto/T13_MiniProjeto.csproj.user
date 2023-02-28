@@ -4,10 +4,16 @@
     <Compile Update="frmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="frmMovProd.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="frmProduto.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="frmUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmUsuarioPesquisa.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="MDI_Principal.cs">

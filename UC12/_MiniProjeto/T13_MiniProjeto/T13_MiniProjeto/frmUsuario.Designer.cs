@@ -75,7 +75,7 @@
             // 
             this.btoPesquisar.Location = new System.Drawing.Point(198, 46);
             this.btoPesquisar.Name = "btoPesquisar";
-            this.btoPesquisar.Size = new System.Drawing.Size(40, 28);
+            this.btoPesquisar.Size = new System.Drawing.Size(40, 31);
             this.btoPesquisar.TabIndex = 1;
             this.btoPesquisar.Text = "...";
             this.btoPesquisar.UseVisualStyleBackColor = true;

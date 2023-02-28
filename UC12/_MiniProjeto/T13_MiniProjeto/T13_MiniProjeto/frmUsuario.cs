@@ -152,6 +152,13 @@ namespace T13_MiniProjeto
 
         private void btoPesquisar_Click(object sender, EventArgs e)
         {
+            if (txtCodigo.Text.Trim() == "")
+            {
+                frmUsuarioPesquisa frm = new frmUsuarioPesquisa();
+                frm.ShowDialog();
+                txtCodigo.Text = frm._codigo;
+            }
+            
             string sql = "select * from usuario where id_usuario = " + txtCodigo.Text;
 
             SqlConnection conn = new SqlConnection(stringConexao);
