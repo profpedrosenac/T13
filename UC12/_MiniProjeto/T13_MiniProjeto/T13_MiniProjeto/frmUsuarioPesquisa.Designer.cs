@@ -39,6 +39,7 @@
             this.txtNomePesquisa.Name = "txtNomePesquisa";
             this.txtNomePesquisa.Size = new System.Drawing.Size(764, 32);
             this.txtNomePesquisa.TabIndex = 6;
+            this.txtNomePesquisa.TextChanged += new System.EventHandler(this.txtNomePesquisa_TextChanged);
             // 
             // gridUsuario
             // 

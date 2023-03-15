@@ -79,5 +79,10 @@ namespace T13_MiniProjeto
             //MessageBox.Show(_codigo);
             this.Close();
         }
+
+        private void txtNomePesquisa_TextChanged(object sender, EventArgs e)
+        {
+            CarregarGridUsuario();
+        }
     }
 }
